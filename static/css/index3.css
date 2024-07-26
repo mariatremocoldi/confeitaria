@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    text-color: #FFB7C3;
+}
+header {
+    background-color: #FFB7C3;
+    color: #fff;
+    padding: 0px ;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+nav ul li a:hover {
+    color: #333;
+    transform: translateY(-3px); /* Efeito de elevação */
+}
+
+.hero {
+    background: url('../img/img8.jpg') no-repeat center center/cover;
+    padding: 185px 0; /* Padding maior para a seção hero */
+    text-align: center;
+    text-color: #FFB7C3;
+    position: relative;
+}
+
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hero h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 3.5rem; /* Tamanho da fonte maior */
+    font-family: 'Arial', sans-serif; /* Fonte clara */
+}
+
+.menu {
+    padding: 0px 0; /* Padding aumentado */
+    background-color: #fff; /* Fundo claro */
+    text-color: #FFB7C3;
+}
+
+.menu h2 {
+    margin-bottom: 30px; /* Margem aumentada */
+    color: #FF6F61; /* Cor complementar */
+    font-size: 2.2rem; /* Tamanho da fonte maior */
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre itens */
+    text-color: #FFB7C3;
+}
+
+.menu2 {
+     background: url('../img/img9.jpg') no-repeat center center/cover;
+    padding: 100px 0; /* Padding maior para a seção hero */
+    text-align: center;
+    position: relative;
+}
+
+}
+
+.menu-item:hover {
+    transform: translateY(-5px); /* Efeito de elevação */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+}
+
+.menu-item img {
+    width: 100%; /* Imagem ocupa toda a largura do item */
+    border-radius: 8px; /* Cantos arredondados da imagem */
+    margin-bottom: 15px; /* Espaçamento abaixo da imagem */
+}
+
+.menu-item h3 {
+    margin-bottom: 10px; /* Margem abaixo do título */
+    color: #FF6F61; /* Cor complementar */
+    font-size: 1.5rem; /* Tamanho da fonte */
+}
+
+.menu-item p {
+    margin-bottom: 10px; /* Margem abaixo da descrição */
+    font-size: 1rem; /* Tamanho da fonte */
+    color: #555; /* Cor do texto */
+}
+
+.menu-item span {
+    display: block;
+    font-size: 1.2rem; /* Tamanho da fonte */
+    font-weight: bold;
+    color: #FF6F61; /* Cor complementar */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Padding aumentado */
+    font-size: 0.9rem;
+}

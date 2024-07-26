@@ -6,19 +6,18 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
 }
 
 .container {
-    width: 80%;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 45px;
 }
-
 header {
-    background-color: #f8b400;
+    background-color: #FFB7C3;
     color: #fff;
-    padding: 20px 0;
+    padding: 0px ;
 }
 
 header h1 {
@@ -42,25 +41,19 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a:hover {
+    color: #333;
+    }
+
 .hero {
-    background: url('../img/bolo.jpg') no-repeat center center/cover;
-    color: #fff;
-    padding: 100px 0;
+    background: url('../img/img8.jpg') no-repeat center center/cover;
+    color: #FFB7C3;
+    padding: 140px 0;
     text-align: center;
 }
 
-.hero h2 {
-    margin-bottom: 20px;
-    font-size: 2.5em;
-}
-
-.hero p {
-    margin-bottom: 20px;
-    font-size: 1.2em;
-}
-
 .cta-button {
-    background-color: #ff6f61;
+    background-color: ;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -68,35 +61,49 @@ nav ul li a {
     border-radius: 5px;
 }
 
+
 .about,
 .menu {
-    padding: 50px 0;
+    padding: 0px 0;
     text-align: center;
+    text-color: #FFB7C3;
 }
 
 .menu-items {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 20px; /* Added gap between items for better spacing */
 }
 
 .menu-item {
-    background-color: #fff;
+    background-color: #FFB7C3;
     border: 1px solid #ddd;
     padding: 20px;
     margin: 10px;
     width: 30%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increased shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+
+
+}
+
+.menu-item:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
 .menu-item h3 {
     margin-bottom: 10px;
-    color: #f8b400;
+    text-color: #FFB7C3;
+    font-size: 1.5rem; /* Slightly larger font size */
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 0px 0;
+    font-size: 0.9rem; /* Slightly smaller font size */
 }
+
